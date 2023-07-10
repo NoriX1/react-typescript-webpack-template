@@ -26,6 +26,7 @@ const devServer = {
     directory: path.join(__dirname, 'public'),
   },
   open: true,
+  historyApiFallback: true,
   // https: true,
   // port: "8080",
   // host: "0.0.0.0",
